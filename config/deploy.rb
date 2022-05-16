@@ -8,7 +8,7 @@ set :repo_url, "git@github.com:thadomaloma/aws_blog.git"
 set :branch, ENV['BRANCH'] || 'master'
 
 # The directory to deploy to.
-set :deploy_to, '/var/www/achieve'
+set :deploy_to, '/var/www/aws_blog'
 
 # Folders/files with symbolic links
 set :linked_files, %w{.env config/secrets.yml}
